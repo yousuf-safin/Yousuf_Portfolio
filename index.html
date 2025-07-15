@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD. Yousuf Ali - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header & Navbar -->
+    <header id="navbar" class="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50 transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-gray-800">
+                Yousuf Ali
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="nav-link text-gray-600 hover:text-blue-500 transition-colors duration-300">Home</a>
+                <a href="#about" class="nav-link text-gray-600 hover:text-blue-500 transition-colors duration-300">About</a>
+                <a href="#projects" class="nav-link text-gray-600 hover:text-blue-500 transition-colors duration-300">Projects</a>
+                <a href="#contact" class="nav-link text-gray-600 hover:text-blue-500 transition-colors duration-300">Contact</a>
+                <a href="https://drive.google.com/file/d/1kdShhvt8al8UB1bsV8XZ1QwvSdk_Cwls/view?usp=sharing" target="_blank" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    View CV
+                </a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-800">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white/90 backdrop-blur-md">
+            <a href="#home" class="block text-center py-2 px-4 text-sm text-gray-700 hover:bg-blue-500 hover:text-white">Home</a>
+            <a href="#about" class="block text-center py-2 px-4 text-sm text-gray-700 hover:bg-blue-500 hover:text-white">About</a>
+            <a href="#projects" class="block text-center py-2 px-4 text-sm text-gray-700 hover:bg-blue-500 hover:text-white">Projects</a>
+            <a href="#contact" class="block text-center py-2 px-4 text-sm text-gray-700 hover:bg-blue-500 hover:text-white">Contact</a>
+             <a href="https://drive.google.com/file/d/1kdShhvt8al8UB1bsV8XZ1QwvSdk_Cwls/view?usp=sharing" target="_blank" class="block text-center bg-blue-500 text-white font-bold py-3 px-4 m-2 rounded-lg shadow-md">
+                View CV
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="section hero-overlay-container min-h-screen bg-cover bg-center bg-no-repeat flex items-center" style="background-image: url('https://placehold.co/1920x1080/e2e8f0/2d3748?text=Your+Image+Here');">
+            <div class="hero-overlay"></div>
+            <div class="container mx-auto px-6 z-10">
+                <div class="w-full md:w-1/2 text-white">
+                    <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Md. Yousuf Ali</h1>
+                    <p class="text-lg md:text-2xl mb-8">Computer Science Graduate & Web Developer</p>
+                    <p class="text-md md:text-lg">
+                        Passionate about building real-world solutions with a focus on Data Engineering, AI/ML, and backend technologies.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-gray-800 mb-16">About Me</h2>
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/3 text-center">
+                        <img src="https://placehold.co/400x400/3b82f6/ffffff?text=YA" alt="Yousuf Ali" class="rounded-full shadow-2xl mx-auto w-64 h-64 object-cover">
+                    </div>
+                    <div class="md:w-2/3">
+                        <p class="text-gray-600 text-lg mb-8">
+                            I'm a Computer Science graduate with a strong foundation in Website Development and a growing passion for data engineering, AI/ML, and backend technologies. I'm focused on building real-world solutions while continuously learning and staying updated with relevant tools and industry practices.
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div>
+                                <h3 class="text-2xl font-semibold text-gray-700 mb-4">Top Skills</h3>
+                                <div class="flex flex-wrap gap-3">
+                                    <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-3 py-1.5 rounded-full">Python</span>
+                                    <span class="bg-green-100 text-green-800 text-sm font-medium me-2 px-3 py-1.5 rounded-full">SQL</span>
+                                    <span class="bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-3 py-1.5 rounded-full">C#</span>
+                                    <span class="bg-red-100 text-red-800 text-sm font-medium me-2 px-3 py-1.5 rounded-full">HTML & CSS</span>
+                                    <span class="bg-purple-100 text-purple-800 text-sm font-medium me-2 px-3 py-1.5 rounded-full">Pandas</span>
+                                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-3 py-1.5 rounded-full">Git & GitHub</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-semibold text-gray-700 mb-4">Education</h3>
+                                <div class="bg-gray-50 p-4 rounded-lg shadow-inner">
+                                    <p class="font-bold text-gray-800">B.Sc. in Computer Science & Engineering</p>
+                                    <p class="text-gray-600">Ahsanullah University of Science and Technology (AUST)</p>
+                                    <p class="text-gray-500 text-sm">2021 - 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-gray-800 mb-16">My Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://placehold.co/600x400/34d399/1f2937?text=Bhashanubad" alt="Project Bhashanubad" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Bhashanubad</h3>
+                            <p class="text-gray-600 mb-4">A Transformer-based model for translating Bangla Regional Dialects to Simple English Language.</p>
+                            <a href="https://github.com/yousuf-safin/Bhashanubad-" target="_blank" class="text-blue-500 hover:underline font-semibold">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://placehold.co/600x400/60a5fa/1f2937?text=AI+Smart+Doorbell" alt="AI Smart Doorbell" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">AI Smart Doorbell</h3>
+                            <p class="text-gray-600 mb-4">Enhances home security with AI for visitor identification, false alert reduction, and remote access.</p>
+                            <a href="https://github.com/yousuf-safin/AI-Smart-Doorbell-With-Face-Recognition" target="_blank" class="text-blue-500 hover:underline font-semibold">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://placehold.co/600x400/f87171/1f2937?text=TBoX_MVC" alt="TBoX_MVC E-Commerce" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">TBoX_MVC</h3>
+                            <p class="text-gray-600 mb-4">An E-Commerce project built with ASP.NET and C#, following the MVC architecture.</p>
+                            <a href="https://github.com/yousuf-safin/TBoX_MVC" target="_blank" class="text-blue-500 hover:underline font-semibold">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://placehold.co/600x400/c084fc/1f2937?text=Shinobi-Run" alt="Shinobi-Run Game" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Shinobi-Run</h3>
+                            <p class="text-gray-600 mb-4">A simple 2D running game developed using C Programming and the iGraphics library.</p>
+                            <a href="https://github.com/yousuf-safin/Shinobi-Run" target="_blank" class="text-blue-500 hover:underline font-semibold">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- WordPress Project 1 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://placehold.co/600x400/fbbf24/1f2937?text=Crossroads+Initiative" alt="Crossroads Initiative BD" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Crossroads Initiative BD</h3>
+                            <p class="text-gray-600 mb-4">A professional website developed on the WordPress platform.</p>
+                            <a href="https://crossroadsinitiativebd.com/" target="_blank" class="text-blue-500 hover:underline font-semibold">Visit Website &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- WordPress Project 2 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://placehold.co/600x400/a78bfa/1f2937?text=BNW+Production" alt="BNW Production" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">BNW Production</h3>
+                            <p class="text-gray-600 mb-4">A creative portfolio website for a production house, built with WordPress.</p>
+                            <a href="https://bnwproduction.com/" target="_blank" class="text-blue-500 hover:underline font-semibold">Visit Website &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-gray-800 mb-4">Get In Touch</h2>
+                <p class="text-center text-gray-600 mb-16">Feel free to reach out. I'm always open to discussing new projects, creative ideas, or opportunities.</p>
+                <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <a href="mailto:yousufalisafin@gmail.com" class="group">
+                        <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl hover:bg-blue-50 transition-all duration-300">
+                            <i class="fas fa-envelope text-4xl text-blue-500 mb-4 group-hover:scale-110 transition-transform"></i>
+                            <h3 class="text-xl font-semibold text-gray-800">Email</h3>
+                            <p class="text-gray-600">yousufalisafin@gmail.com</p>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/8801405594862" target="_blank" class="group">
+                        <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl hover:bg-green-50 transition-all duration-300">
+                            <i class="fab fa-whatsapp text-4xl text-green-500 mb-4 group-hover:scale-110 transition-transform"></i>
+                            <h3 class="text-xl font-semibold text-gray-800">WhatsApp</h3>
+                            <p class="text-gray-600">+880 1405594862</p>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yousuf-ali-safin" target="_blank" class="group">
+                        <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl hover:bg-indigo-50 transition-all duration-300">
+                            <i class="fab fa-linkedin-in text-4xl text-indigo-500 mb-4 group-hover:scale-110 transition-transform"></i>
+                            <h3 class="text-xl font-semibold text-gray-800">LinkedIn</h3>
+                            <p class="text-gray-600">Yousuf ali Safin</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Md. Yousuf Ali. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when a link is clicked
+        const mobileNavLinks = document.querySelectorAll('#mobile-menu a');
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+
+        // JavaScript for active navigation link highlighting on scroll
+        const sections = document.querySelectorAll('.section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        const options = {
+            root: null, // viewport
+            rootMargin: '0px',
+            threshold: 0.5 // 50% of the section must be visible
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href').substring(1) === entry.target.id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, options);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+    </script>
+
+</body>
+</html>
